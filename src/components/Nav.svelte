@@ -1,9 +1,14 @@
 <script>
 	export let segment;
+
+	let show = false
+	const toggle = () =>{
+		show = !show;
+	}
 </script>
 
 <style>
-	nav {
+	/* nav {
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
@@ -12,10 +17,10 @@
 	ul {
 		margin: 0;
 		padding: 0;
-	}
+	} */
 
 	/* clearfix */
-	ul::after {
+	/* ul::after {
 		content: '';
 		display: block;
 		clear: both;
@@ -45,16 +50,39 @@
 		text-decoration: none;
 		padding: 1em 0.5em;
 		display: block;
-	}
+	} */
 </style>
 
-<nav>
+<!-- <nav>
 	<ul>
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
-		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li>
+		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">about</a></li> -->
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li>
+		<!-- <li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li>
 	</ul>
-</nav>
+</nav> -->
+
+<header class="header-area header-sticky">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<nav class="main-nav">
+					<a href=" " class="logo">
+						<img src="/assets/images/logo.png" alt="Softy Pinko"/>
+					</a>
+					<ul class="nav" style='display : {show ? "block" : "none"}'>
+						<li><a aria-current="{segment === undefined ? 'page' : undefined}" href="#welcome">Home</a></li>
+						<li><a aria-current="{segment === 'caritoko' ? 'page' : undefined}" href="caritoko">Cari Toko Bangunan</a></li>
+						<li><a aria-current="{segment === 'caritukang' ? 'page' : undefined}" href="caritukang">Cari Tukang</a></li>
+						<li><a aria-current="{segment === 'artikel' ? 'page' : undefined}" href="artikel">Artikel</a></li>
+					</ul>
+					<a href=' ' class='menu-trigger {show ? "active" : ""}' on:click={toggle}>
+						<span>Menu</span>
+					</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
