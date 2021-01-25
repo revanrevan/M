@@ -1,6 +1,6 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-	// import Foot from '../components/Footer.svelte';
+	import Foot from '../components/Footer.svelte';
 	import { onMount } from "svelte"
 	export let segment;
 
@@ -28,3 +28,5 @@
 <main>
 	<slot></slot>
 </main>
+
+<Foot />
