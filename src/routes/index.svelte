@@ -74,3 +74,29 @@
 		</div>
 	</div>
 </section>
+
+<section class="section padding-bottom-100">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+				<div class="left-heading">
+					<h2 class="section-title">Cara Kerja <strong class="judul">MARIKANG</strong></h2>
+				</div>
+				<div class="left-text">
+					<ul>
+						<li><i ></i> Pilih tukang sesuai pekerjaan.</li>
+						<li><i ></i> Tekan tombol WA setelah menentukan tukang yang sesuai.</li>
+						<li><i ></i> Akan masuk ke WA admin Marikang (muncul template chat seperti Nama, Alamat, Pekerjaan) yang harus di isi oleh customer.</li>
+						<li><i ></i> Lalu Tim Marikang akan menanyakan kapan kunjungan atau survei lokasi.</li>
+						<li><i ></i> Dilokasi Tim akan mengecek berapa bahan dan biaya yang harus di bayarkan oleh customer.</li>
+						<li><i ></i> Ketika sudah Deal, Tim akan mengerjakan sesuai kesepakatan bersama.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+				<img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+			</div>
+		</div>
+	</div>
+</section>
