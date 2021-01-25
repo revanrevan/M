@@ -3,7 +3,9 @@
 </script>
 
 <style>
-
+	.judul{
+		color: rgb(185, 19, 19);
+	}
 </style>
 
 <svelte:head>
@@ -36,3 +38,39 @@
 	</section>
 </center>
 
+<section class="section padding-top-70 padding-bottom-0" id="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+				<img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+				<div class="left-heading">
+					<h2 class="section-title">Layanan <strong class="judul">MARIKANG</strong></h2>
+				</div>
+				<div class="left-text">
+					<div class="row">
+                        <div class="col-md-10 icon-box" data-aos="fade-up">
+                            <h4>Perbaikan</h4>
+                            <p>Memberikan layanan dengan menyesuaikan kebutuhan perbaikan tertentu pada bangunan berskala kecil. Perbaikan yang dapat diselesaikan dalam satu hari atau singkat</p>
+                        </div>
+                        <div class="col-md-10 icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <h4>Renovasi & Bangun</h4>
+                            <p>Memberikan layanan dengan menyesuaikan kebutuhan pembangunan skala besar yang dikerjakan. Renovasi dan Bangun diselesaikan dalam kurung waktu jangka panjang</p>
+                        </div>
+                        <div class="col-md-10 icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <h4>Survei Lokasi & Konsultasi</h4>
+                            <p>Survei Lokasi & Konsultasi ini merupakan layanan yang kami berikan guna mengetahui situasi lokasi dan memperhitungkan berapa banyak biaya yang harus dikeluarkan Client</p>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+</section>
