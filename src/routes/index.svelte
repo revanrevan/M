@@ -1,5 +1,6 @@
 <script>
 	import Konten from '../components/Card.svelte'
+	import Artikel from './artikel/index.svelte';
 </script>
 
 <style>
@@ -98,5 +99,11 @@
 				<img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
 			</div>
 		</div>
+	</div>
+</section>
+
+<section class="section" id="blog">
+	<div class="container">
+		<Artikel />
 	</div>
 </section>
