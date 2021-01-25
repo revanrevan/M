@@ -21,3 +21,18 @@
 		</div>
 	</div>
 </div>
+
+<center>
+	<section class="section home-feature">
+		<div class="container"> 
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="row">
+						<Konten />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</center>
+
