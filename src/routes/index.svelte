@@ -1,5 +1,5 @@
 <script>
-
+	import Konten from '../components/Card.svelte'
 </script>
 
 <style>
