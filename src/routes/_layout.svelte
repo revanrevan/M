@@ -1,19 +1,27 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-
+	// import Foot from '../components/Footer.svelte';
+	// import { onMount } from "svelte"
 	export let segment;
+
+	onMount(function(){
+		setTimeout(()=>{
+			document.querySelector("div#preloader").style.visibility = "hidden"
+		}, 200)
+	})
 </script>
 
 <style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+	
 </style>
+
+<div id="preloader">
+	<div class="jumper">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</div> 
 
 <Nav {segment}/>
 
