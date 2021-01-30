@@ -5,7 +5,7 @@
 
 <style>
 	.judul{
-		color: rgb(185, 19, 19);
+		color: #FAC330;
 	}
 </style>
 
@@ -85,12 +85,12 @@
 				</div>
 				<div class="left-text">
 					<ul>
-						<li><i ></i> Pilih tukang sesuai pekerjaan.</li>
-						<li><i ></i> Tekan tombol WA setelah menentukan tukang yang sesuai.</li>
-						<li><i ></i> Akan masuk ke WA admin Marikang (muncul template chat seperti Nama, Alamat, Pekerjaan) yang harus di isi oleh customer.</li>
-						<li><i ></i> Lalu Tim Marikang akan menanyakan kapan kunjungan atau survei lokasi.</li>
-						<li><i ></i> Dilokasi Tim akan mengecek berapa bahan dan biaya yang harus di bayarkan oleh customer.</li>
-						<li><i ></i> Ketika sudah Deal, Tim akan mengerjakan sesuai kesepakatan bersama.</li>
+						<li><b style="color: #D3272C;">1.</b> Pilih tukang sesuai pekerjaan.</li>
+						<li><b style="color: #D3272C;">2.</b> Tekan tombol WA setelah menentukan tukang yang sesuai.</li>
+						<li><b style="color: #D3272C;">3.</b> Akan masuk ke WA admin Marikang (muncul template chat seperti Nama, Alamat, Pekerjaan) yang harus di isi oleh customer.</li>
+						<li><b style="color: #D3272C;">4.</b> Lalu Tim Marikang akan menanyakan kapan kunjungan atau survei lokasi.</li>
+						<li><b style="color: #D3272C;">5.</b> Dilokasi Tim akan mengecek berapa bahan dan biaya yang harus di bayarkan oleh customer.</li>
+						<li><b style="color: #D3272C;">6.</b> Ketika sudah Deal, Tim akan mengerjakan sesuai kesepakatan bersama.</li>
 					</ul>
 				</div>
 			</div>

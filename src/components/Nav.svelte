@@ -20,7 +20,7 @@
 						<img src="/assets/images/logo.png" class="logoo" alt="Marikang"/>
 					</a>
 					<ul class="nav" style='display : {show ? "block" : "none"}'>
-						<li><a aria-current="{segment === undefined ? 'page' : undefined}" href="#welcome">Home</a></li>
+						<li><a aria-current="{segment === undefined ? 'page' : undefined}" href="/">Home</a></li>
 						<li><a aria-current="{segment === 'caritoko' ? 'page' : undefined}" href="caritoko">Cari Toko Bangunan</a></li>
 						<li><a aria-current="{segment === 'caritukang' ? 'page' : undefined}" href="caritukang">Cari Tukang</a></li>
 						<li><a aria-current="{segment === 'artikel' ? 'page' : undefined}" href="artikel">Artikel</a></li>

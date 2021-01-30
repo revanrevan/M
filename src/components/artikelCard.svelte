@@ -45,27 +45,27 @@
 
 <script>
     let artikel = [
-        {gambarArtikel:'assets/images/blog-item-01.png', linkArtikel:'detailArtikel1', judulArtikel:'Vivamus ac vehicula dui', isiArtikel:'Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.'},
-        {gambarArtikel:'assets/images/blog-item-02.png', linkArtikel:'detailArtikel2', judulArtikel:'Phasellus convallis augue', isiArtikel:'Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.'},
-        {gambarArtikel:'assets/images/blog-item-03.png', linkArtikel:'detailArtikel3', judulArtikel:'Nam gravida purus non', isiArtikel:'Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.'}
+        {gambarArtikel:'assets/images/blog-item-01.jpg', linkArtikel:'detailArtikel1', judulArtikel:'Tips Membuat Kolam Renang Sendiri', isiArtikel:'Kolam renang bisa menjadi sarana olahraga yang sangat menyenangkan. Memiliki kolam renang pribadi di rumah dapat membantu Kalian mengurangi rasa stres karena membuat suasana di rumah menjadi nyaman dan sejuk. Selain itu, berenang bersama keluarga juga dapat mempererat keharmonisan antar anggota keluarga.'},
+        {gambarArtikel:'assets/images/blog-item-02.png', linkArtikel:'detailArtikel2', judulArtikel:'9 Jenis Pipa Air Dan Fungsinya', isiArtikel:'Membangun rumah sendiri adalah impian setiap orang. Maka dari itu, perencanaan pembangunannya juga harus dipikirkan sematang mungkin agar hasilnya baik. Nah salah satu hal yang harus diperhatikan ketika membangun rumah adalah memilih jenis pipa air yang tepat untuk rumah. Ternyata banyak sekali jenis pipa air yang harus dikenali.'},
+        {gambarArtikel:'assets/images/unnamed.jpg', linkArtikel:'detailArtikel3', judulArtikel:'PENGERTIAN & JENISJASA KERJA KONSTRUKSI', isiArtikel:'Di era modern saat ini, usaha bidang jasa konstruksi sangat dibutuhkan dalam pembangunan rumah, gedung kantor hingga fasilitas umum yang nantinya pemanfaatan bangunan tersebut menyangkut kepentingan, kebermanfaatan dan keselamatan masyarakat pemakai atau pemanfaat bangunan.'}
     ]
 </script>
 
 {#each artikel as art}    
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="blog-post-thumb">
-                <div class="img">
-                    <img src="{art.gambarArtikel}" alt="">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="blog-post-thumb">
+            <div class="img">
+                <img class="foto" src="{art.gambarArtikel}" alt="">
+            </div>
+            <div class="blog-content">
+                <h3>
+                    <a href="/artikel/{art.linkArtikel}">{art.judulArtikel}</a>
+                </h3>
+                <div class="text">
+                {art.isiArtikel}
                 </div>
-                <div class="blog-content">
-                    <h3>
-                        <a href="/artikel/{art.linkArtikel}">{art.judulArtikel}</a>
-                    </h3>
-                    <div class="text">
-                    {art.isiArtikel}
-                    </div>
-                    <a href="/artikel/{art.linkArtikel}" class="main-button">Read More</a>
-                </div>
+                <a href="/artikel/{art.linkArtikel}" class="main-button">Read More</a>
             </div>
         </div>
-    {/each}
+    </div>
+{/each}
