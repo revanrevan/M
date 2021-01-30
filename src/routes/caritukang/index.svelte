@@ -1,5 +1,5 @@
 <script>
-    import DataTukang from './../components/tukangCard.svelte'
+    import DataTukang from './../../components/tukangCard.svelte'
 
     function cariTukang(){
             let x = document.getElementById("daftartukang").value;

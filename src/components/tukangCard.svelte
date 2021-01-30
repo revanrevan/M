@@ -1,6 +1,6 @@
 <script>
     let tukangBangunan = [
-        {domisiliTukang: 'Kabat', linkTukang:'detailtukang1', fotoTukang:'assets/images/Tukang1.jpeg', namaTukang:'Abd. Hakim', keahlianTukang:'Cat Dinding, Pasang Atap, Pasang Kramik'},
+        {domisiliTukang: 'Kabat', linkTukang:'caritukang/detailtukang1', fotoTukang:'assets/images/Tukang1.jpeg', namaTukang:'Abd. Hakim', keahlianTukang:'Cat Dinding, Pasang Atap, Pasang Kramik'},
         {domisiliTukang: 'Kabat', linkTukang:'detailtukang2', fotoTukang:'assets/images/IMG-20201024-WA0022.jpg', namaTukang:'Busairi', keahlianTukang:'Kepala Tukang'},
         {domisiliTukang: 'Kabat', linkTukang:'detailtukang3', fotoTukang:'assets/images/IMG-20201024-WA0023.jpg', namaTukang:'Eko Wahyudi', keahlianTukang:'Cat dan Las'}
     ]
