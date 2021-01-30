@@ -1,5 +1,5 @@
 <script>
-    // import Artikel from "../../components/artikelCard.svelte"
+    import Artikel from "../../components/artikelCard.svelte"
 </script>
 
 <style>
@@ -23,7 +23,7 @@
 			</div>
         </div>
         <div class="row">
-            <!-- <Artikel /> -->
+            <Artikel />
 		</div>
     </div>
 </section>
