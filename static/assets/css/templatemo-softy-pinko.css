@@ -113,12 +113,12 @@ body {
 }
 
 ::selection {
-  background: #ff5858;
+  background: #FAC330;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff5858;
+  background: #FAC330;
   color: #fff;
 }
 
@@ -314,7 +314,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff5858;
+  background-color: #FAC330;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -325,14 +325,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #ee6161;
+  background-color: #D3272C;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ee6161;
+  background-color: #D3272C;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -343,7 +343,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff5858;
+  background-color: #FAC330;
 }
 
 button.main-button {
@@ -353,7 +353,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ee6161;
+  background-color: #D3272C;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -364,7 +364,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff5858;
+  background-color: #FAC330;
 }
 
 
@@ -451,7 +451,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff5858;
+  color: #FAC330;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -563,7 +563,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff5858;
+  color: #FAC330;
 }
 
 @media (max-width: 1200px) {
@@ -772,7 +772,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff5858;
+  background-color: #FAC330;
 }
 
 .features-small-item .icon {
@@ -786,7 +786,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #ee6161;
+  background: #D3272C;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1178,7 +1178,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff5858;
+  color: #FAC330;
   letter-spacing: 0.25px;
 }
 
@@ -1217,7 +1217,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff5858;
+  background-color: #FAC330;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1260,7 +1260,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #ee6161;
+  background: #D3272C;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
@@ -1354,7 +1354,7 @@ blog
 }
 
 .blog-post-thumb h3 a:hover {
-  color: #ff5858;
+  color: #FAC330;
 }
 
 .blog-post-thumb .text {
@@ -1445,7 +1445,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #d15959 0%, #ee6161 91%);
+  background-image: linear-gradient(127deg, #d15959 0%, #D3272C 91%);
   padding-top: 30px;
 }
 
@@ -1477,7 +1477,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff5858;
+  background-color: #FAC330;
   color: #fff;
 }
 
@@ -1513,7 +1513,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #d15959 0%, #ee6161 100%);
+  background-image: linear-gradient(135deg, #d15959 0%, #D3272C 100%);
   left: 0;
   right: 0;
   top: 0;
