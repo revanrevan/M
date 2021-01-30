@@ -17,7 +17,7 @@
 			<div class="col-12">
 				<nav class="main-nav">
 					<a href=" " class="logo">
-						<img src="/assets/images/logo.png" alt="Softy Pinko"/>
+						<img src="/assets/images/logo.png" class="logoo" alt="Marikang"/>
 					</a>
 					<ul class="nav" style='display : {show ? "block" : "none"}'>
 						<li><a aria-current="{segment === undefined ? 'page' : undefined}" href="#welcome">Home</a></li>
