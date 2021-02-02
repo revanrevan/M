@@ -1,8 +1,8 @@
 <script>
     let TokoBangunan = [
-        {domisiliToko: 'Singojuruh', linkToko:'detailToko1', fotoToko:'assets/images/IMG-20201024-WA0020.jpg', namaToko:'Luis Jaya 2', alamatToko:'Dsn. Karangasem, Ds. Alasmalang, Kec. Singojuruh, Kab. Banyuwangi'},
-        {domisiliToko: 'Singojuruh', linkToko:'detailToko2', fotoToko:'assets/images/IMG-20201024-WA0017.jpg', namaToko:'Elaa Jaya', alamatToko:'Dsn. Krajan Ds. Padang Kec. Singojuruh'},
-        {domisiliToko: 'Banyuwangi', linkToko:'detailToko3', fotoToko:'assets/images/IMG-20201024-WA0013.jpg', namaToko:'CV FIRDAUS', alamatToko:'JL. Gajah Mada No. 16'}
+        {domisiliToko: 'Singojuruh', linkToko:'caritoko/detailtoko1', fotoToko:'assets/images/IMG-20201024-WA0020.jpg', namaToko:'Luis Jaya 2', alamatToko:'Dsn. Karangasem, Ds. Alasmalang, Kec. Singojuruh, Kab. Banyuwangi'},
+        {domisiliToko: 'Singojuruh', linkToko:'caritoko/detailtoko2', fotoToko:'assets/images/IMG-20201024-WA0017.jpg', namaToko:'Elaa Jaya', alamatToko:'Dsn. Krajan Ds. Padang Kec. Singojuruh'},
+        {domisiliToko: 'Banyuwangi', linkToko:'caritoko/detailtoko3', fotoToko:'assets/images/IMG-20201024-WA0013.jpg', namaToko:'CV FIRDAUS', alamatToko:'JL. Gajah Mada No. 16'}
     ]
 
 </script>

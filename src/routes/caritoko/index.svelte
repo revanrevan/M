@@ -1,5 +1,5 @@
 <script>
-    import DataToko from './../components/tokoCard.svelte'
+    import DataToko from './../../components/tokoCard.svelte'
 
     function cariToko(){
             let x = document.getElementById("daftartoko").value;
